@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast</title>
+</head>
+<body>
+  <h1>Weather Changes, unlike your dark room</h1>
+  <div class="main-functions">
+    <div class="location">
+    <label for="seachBox">Enter location:</label>
+    <input type="text" id="searchBox" placeholder="Enter location..." autocomplete="off" />
+  </div>
+  <div class="menu">
+    <button id="searchBtn">Get Forecast</button>
+    <button id="unitToggle">Show °C</button>
+  </div>
+  </div>
+  <div id="errorMsg"></div>
+  <div id="app-card">
+  <div class="weather-main" id="results"></div>
+  <div id="gifResult"></div>
+</div>
+
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
+
+
